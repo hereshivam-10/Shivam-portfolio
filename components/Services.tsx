@@ -5,7 +5,17 @@ export default function Services() {
   return (
     <section id="services" className="py-24 md:py-32">
       <div className="shell">
-        <SectionHead index="02" title="What I do" />
+        <div className="border-t border-line pt-5">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    SERVICES
+  </p>
+  <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+    WHAT I DO
+  </h2>
+  <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+    Editing, AI content and commercial visuals built for brands, creators and businesses.
+  </p>
+</div>
         <ul className="mt-16">
           {services.map((s) => (
             <li
