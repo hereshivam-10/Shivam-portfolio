@@ -37,7 +37,7 @@ export default function Hero() {
         {/* Portrait: in the flow on mobile, pinned bottom-right on desktop */}
         <motion.div
           style={{ y }}
-          className="relative z-2 mx-auto mt-6 h-[72vw] w-screen max-w-none sm:h-[65vw] lg:absolute lg:mx-0 lg:mt-0 lg:bottom-0 lg:right-0 lg:m-0 lg:h-[86svh] lg:w-[52vw] lg:max-w-none"
+          className="relative z-2 mx-auto mt-6 h-[72vw] w-screen max-w-none sm:h-[65vw] lg:absolute lg:mx-0 lg:mt-0 lg:bottom-0 lg:left-1/2 lg:-translate-x-1/2 lg:m-0 lg:h-[86svh] lg:w-screen lg:max-w-none"
         >
           <div className="portrait-in relative h-full w-full">
             <Image
