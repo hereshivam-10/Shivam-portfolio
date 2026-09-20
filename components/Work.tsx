@@ -34,6 +34,19 @@ export default function Work() {
 );
       return (
               <div key={cat.id}>
+                {cat.id === "COMMERCIAL EDITING" && (
+  <div className="mb-10 md:mb-14">
+    <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+      BRAND & BUSINESS
+    </p>
+    <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+      COMMERCIAL EDITING
+    </h2>
+    <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+      Professional video edits crafted for brands, businesses and promotional campaigns.
+    </p>
+  </div>
+)}
                 <div className="flex flex-col gap-5 border-t border-line pt-5 md:flex-row md:items-end md:justify-between md:gap-16">
                   <div>
                     <p className="label">{cat.number}</p>
