@@ -84,18 +84,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "ai-ad-03",
-    title: "AI Ad 03",
-    category: "AI CONTENT",
-    type: "AI Content",
-    description: "Add this project's description in data/projects.ts.",
-    orientation: "landscape",
-    year: "2026",
-    role: "AI content + video editing",
-    tools: [],
-    featured: true,
-  },
-
+  id: "ai-product-promotion",
+  title: "AI Product Promotion",
+  category: "COMMERCIAL EDITING",
+  type: "Product Commercial",
+  description:
+    "An AI-powered product promotion combining animated characters, product-focused visuals and video editing to create an engaging commercial.",
+  thumbnail: "/images/Promotion-cover.jpg",
+  video: "/videos/Product-promotion.mp4",
+  orientation: "portrait",
+  year: "2026",
+  role: "AI content + video editing",
+  tools: [],
+  featured: true,
+},
   /* -------------------------- COMMERCIAL EDITING -------------------------- */
   {
     id: "hair-oil-commercial",
