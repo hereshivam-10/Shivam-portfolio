@@ -99,6 +99,7 @@ export const projects: Project[] = [
   featured: true,
   },
   
+  
   /* -------------------------- COMMERCIAL EDITING -------------------------- */
   {
     id: "hair-oil-commercial",
@@ -146,7 +147,21 @@ export const projects: Project[] = [
     featured: true,
     origin: "personal",
   },
-
+  {
+  id: "ai-ad-04",
+  title: "AI Ad 04",
+  category: "AI CONTENT",
+  type: "AI Commercial",
+  description:
+    "A premium product commercial for Llum, crafted with luxury-focused visuals, polished product shots and a refined voice-over to create an elegant brand presentation.",
+  thumbnail: "/images/loom-product-presentation-cover.jpg",
+  video: "/videos/loom-product-presentation.mp4",
+  orientation: "landscape",
+  year: "2026",
+  role: "AI content + video editing",
+  tools: [],
+  featured: true,
+  },
   /* ------------------------------ AI × EDITING ---------------------------- */
   {
     id: "ai-storytelling",
