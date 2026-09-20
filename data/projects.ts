@@ -148,6 +148,7 @@ export const projects: Project[] = [
     category: "AI × EDITING",
     type: "AI Story",
     description: "A cinematic AI-generated historical storytelling project, combining AI visuals, character scenes and video editing to create an immersive narrative.",
+    thumbnail: "/images/Storytelling-cover.jpg",
     video: "/videos/Storytelling.mp4",
     orientation: "landscape",
     year: "2026",
