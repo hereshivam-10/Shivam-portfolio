@@ -42,7 +42,6 @@ export default function Work() {
                       {cat.title}
                     </MaskText>
                   </div>
-                  <p className="max-w-[26rem] text-base leading-relaxed text-mute md:text-right">{cat.sub}</p>
                 </div>
 
                 <ul className="mt-10 grid gap-x-6 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
