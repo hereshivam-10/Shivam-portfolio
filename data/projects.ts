@@ -101,6 +101,21 @@ export const projects: Project[] = [
   
   
   /* -------------------------- COMMERCIAL EDITING -------------------------- */
+   {
+    id: "real-estate-investment-promo",
+    title: "Real Estate Investment Promo",
+    category: "COMMERCIAL EDITING",
+    type: "Real Estate Commercial",
+    description:
+      "A promotional real estate edit showcasing a property development, its features and investment opportunities for potential buyers and investors.",
+    thumbnail: "/images/real-estate-investment-promo.webp",
+    video: "/videos/real-estate-investment-promo.mp4",
+    orientation: "portrait",
+    year: "2026",
+    role: "Video editing",
+    tools: [],
+    featured: true,
+  },
   {
     id: "hair-oil-commercial",
     title: "Hair Oil Commercial",
