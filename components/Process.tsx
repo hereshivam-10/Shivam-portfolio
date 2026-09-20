@@ -5,7 +5,17 @@ export default function Process() {
   return (
     <section id="process" className="py-24 md:py-32">
       <div className="shell">
-        <SectionHead index="03" title="How I work" />
+        <div className="border-t border-line pt-5">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    PROCESS
+  </p>
+  <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+    HOW I WORK
+  </h2>
+  <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+    From the first idea to the final polished video, every project follows a clear creative process.
+  </p>
+</div>
         <ol className="mt-16 grid gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
           {processSteps.map((step) => (
             <li key={step.number} className="border-t border-line pt-6 sm:pr-8">
