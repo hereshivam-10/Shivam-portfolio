@@ -14,7 +14,19 @@ export default function Work() {
   return (
     <section id="work" className="py-24 md:py-32">
       <div className="shell">
-        <SectionHead index="01" title={workCopy.title} sub={workCopy.sub} />
+        <div className="mb-10 md:mb-14">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    SELECTED WORK
+  </p>
+
+  <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+    EDITING × AI
+  </h2>
+
+  <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+    Cinematic edits, AI visuals & commercial content crafted for brands and creators.
+  </p>
+</div>
 
         <div className="mt-20 space-y-28 md:mt-28 md:space-y-36">
           {categories.map((cat) => {
