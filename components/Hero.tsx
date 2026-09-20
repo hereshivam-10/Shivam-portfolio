@@ -46,12 +46,12 @@ export default function Hero() {
               fill
               priority
               sizes="(min-width: 1024px) 48vw, 90vw"
-              className="object-contain object-bottom brightness-[0.86] contrast-[1.06] grayscale"
-            />
+             className="object-contain object-bottom"
+              />
           </div>
         </motion.div>
 
-        <div className="relative -mt-[7vw] lg:mt-auto lg:pt-32">
+        <div className="relative z-20 mt-[7vw] lg:mt-auto lg:pt-32">
           <h1
             aria-label="Shivam"
             className="relative z-[1] font-display text-[22vw] font-extrabold leading-[0.86] tracking-[-0.05em] lg:text-[clamp(8rem,14vw,17rem)]"
