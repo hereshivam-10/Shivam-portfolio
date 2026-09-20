@@ -19,7 +19,7 @@ export default function About() {
   </p>
 </div>
 
-        <div className="mt-16 grid gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:gap-24">
+        <div className="mt-14 grid gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:gap-24">
           <div className="max-w-[40rem] space-y-6 text-lg leading-[1.75] text-paper/85 sm:text-xl sm:leading-[1.7]">
             {about.paragraphs.map((p) => (
               <p key={p}>{p}</p>
