@@ -68,10 +68,10 @@ export const categories = [
     sub: "AI-generated commercials and visual storytelling.",
   },
   {
-  id: "COMMERCIAL_EDITING",
-number: "02",
-title: "Commercial Editing",
-sub: "Original commercial and promotional video editing created for brands and businesses.",
+  id: "COMMERCIAL EDITING",
+  number: "02",
+  title: "Commercial Editing",
+  sub: "Original commercial and promotional video editing created for brands and businesses.",
   },
   {
     id: "AI × EDITING",
