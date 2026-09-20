@@ -163,6 +163,8 @@ export const projects: Project[] = [
     category: "AI × EDITING",
     type: "Educational Edit",
     description: "Add this project's description in data/projects.ts.",
+    thumbnail: "/images/Educational-cover.jpg",
+    video: "/videos/Educational-edits.mp4",
     orientation: "landscape",
     year: "2026",
     role: "Video editing",
