@@ -1,22 +1,25 @@
 import { contactCopy, site } from "@/data/site";
 import { ArrowUpRight } from "./icons";
-import MaskText from "./MaskText";
+
 
 const channels = [site.links.instagram, site.links.email, site.links.whatsapp];
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 md:py-40">
+    <section id="contact" className="py-20 md:py-28">
       <div className="shell">
         <div className="border-t border-line pt-5">
           <p className="label">06</p>
-          <MaskText className="mt-8 font-display text-[clamp(3rem,10.5vw,10.5rem)] font-extrabold uppercase leading-[0.88] tracking-[-0.045em]">
-            {contactCopy.heading.map((line) => (
-              <span key={line} className="block">
-                {line}
-              </span>
-            ))}
-          </MaskText>
+          <div className="mt-8">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    LET'S TALK
+  </p>
+
+  <h2 className="font-display text-5xl font-extrabold uppercase leading-[0.88] tracking-[-0.045em] sm:text-6xl md:text-8xl">
+    START A
+    <span className="block">PROJECT</span>
+  </h2>
+</div>
           <p className="mt-10 max-w-[30rem] text-xl leading-relaxed text-mute">{contactCopy.sub}</p>
           <a href={site.links.email.href} className="btn btn-primary mt-8">
             {contactCopy.cta}
