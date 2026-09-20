@@ -21,7 +21,7 @@ export default function Hero() {
     <section
       ref={ref}
       id="top"
-      className="relative isolate min-h-[100svh] overflow-hidden"
+      className="relative isolate min-h-[78svh] overflow-hidden"
     >
       {/* soft light behind the portrait */}
       <div
@@ -29,7 +29,7 @@ export default function Hero() {
         className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_60%_55%_at_72%_42%,#1b1b1b_0%,#0a0a0a_70%)]"
       />
 
-      <div className="shell flex min-h-[100svh] flex-col pb-10 pt-24 lg:pb-12">
+      <div className="shell flex min-h-[78svh] flex-col pb-10 pt-24 lg:pb-12">
         <p className="fade-up label mb-4 lg:mb-0" style={{ animationDelay: "0.1s" }}>
           {hero.eyebrow}
         </p>
