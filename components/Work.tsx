@@ -47,6 +47,19 @@ export default function Work() {
     </p>
   </div>
 )}
+                {cat.id === "AI × EDITING" && (
+  <div className="mb-10 md:mb-14">
+    <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+      AI + EDITING
+    </p>
+    <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+      AI × EDITING
+    </h2>
+    <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+      AI-generated visuals combined with professional editing, storytelling and sound design.
+    </p>
+  </div>
+)}
                 <div className="flex flex-col gap-5 border-t border-line pt-5 md:flex-row md:items-end md:justify-between md:gap-16">
                   <div>
                     <p className="label">{cat.number}</p>
