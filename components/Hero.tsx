@@ -37,7 +37,7 @@ export default function Hero() {
         {/* Portrait: in the flow on mobile, pinned bottom-right on desktop */}
         <motion.div
           style={{ y }}
-          className="relative z-[2] ml-auto -mr-3 mt-2 h-[44svh] w-[calc(44svh*0.8333)] max-w-[88vw] sm:mr-0 lg:absolute lg:bottom-0 lg:right-[4vw] lg:m-0 lg:h-[86svh] lg:w-[calc(86svh*0.8333)] lg:max-w-none"
+          className="relative z-2 mx-auto mt-6 h-auto w-[calc(100vw-2rem)] max-w-none aspect-[5/6] sm:mt-8 lg:absolute lg:mx-0 lg:mt-0 lg:bottom-0 lg:right-[4vw] lg:m-0 lg:h-[86svh] lg:w-[calc(86svh*0.8333)] lg:max-w-none"
         >
           <div className="portrait-in relative h-full w-full">
             <Image
@@ -48,10 +48,11 @@ export default function Hero() {
               sizes="(min-width: 1024px) 48vw, 90vw"
              className="object-contain object-bottom"
               />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
           </div>
         </motion.div>
 
-        <div className="relative z-20 mt-[7vw] lg:mt-auto lg:pt-32">
+        <div className="relative z-20 -mt-[12vw] mt-[calc(-1*12vw)] lg:mt-auto lg:pt-32">
           <h1
             aria-label="Shivam"
             className="relative z-[1] font-display text-[22vw] font-extrabold leading-[0.86] tracking-[-0.05em] lg:text-[clamp(8rem,14vw,17rem)]"
