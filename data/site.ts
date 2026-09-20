@@ -69,9 +69,9 @@ export const categories = [
   },
   {
   id: "COMMERCIAL_EDITING",
-  number: "02",
-  title: "BRANDS & BUSINESS",
-  sub: "Premium product films, brand edits and promotional content crafted for modern brands and businesses.",
+number: "02",
+title: "Commercial Editing",
+sub: "Original commercial and promotional video editing created for brands and businesses.",
   },
   {
     id: "AI × EDITING",
