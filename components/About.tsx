@@ -1,11 +1,23 @@
 import { about, site } from "@/data/site";
-import SectionHead from "./SectionHead";
+
 
 export default function About() {
   return (
     <section id="about" className="py-24 md:py-32">
       <div className="shell">
-        <SectionHead index="05" title="About" />
+        <div className="border-t border-line pt-5">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    ABOUT ME
+  </p>
+
+  <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+    WHO I AM
+  </h2>
+
+  <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+    Video editor and AI content creator focused on turning ideas into polished visual content.
+  </p>
+</div>
 
         <div className="mt-16 grid gap-16 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:gap-24">
           <div className="max-w-[40rem] space-y-6 text-lg leading-[1.75] text-paper/85 sm:text-xl sm:leading-[1.7]">
