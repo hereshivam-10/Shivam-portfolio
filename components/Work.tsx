@@ -29,8 +29,10 @@ export default function Work() {
 </div>
         <div className="mt-20 space-y-28 md:mt-28 md:space-y-36">
           {categories.map((cat) => {
-            const items = projects.filter((p) => p.category === cat.id);
-            return (
+            const items = projects.filter(
+  (p) => p.category?.trim().toUpperCase() === cat.id?.trim().toUpperCase()
+);
+      return (
               <div key={cat.id}>
                 <div className="flex flex-col gap-5 border-t border-line pt-5 md:flex-row md:items-end md:justify-between md:gap-16">
                   <div>
