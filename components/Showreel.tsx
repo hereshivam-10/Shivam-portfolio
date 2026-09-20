@@ -54,7 +54,19 @@ export default function Showreel() {
   return (
     <section id="showreel" className="py-24 md:py-32">
       <div className="shell">
-        <SectionHead index="00" title={showreelCopy.title} sub={showreelCopy.sub} />
+        <div className="mb-10 md:mb-14">
+  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
+    SHOWREEL
+  </p>
+
+  <h2 className="font-display text-4xl font-extrabold uppercase leading-none tracking-tight sm:text-5xl md:text-6xl">
+    A SELECTION OF MY WORK
+  </h2>
+
+  <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+    Cinematic edits, AI visuals and commercial content crafted for brands, creators and digital audiences.
+  </p>
+</div>
       </div>
 
       <div className="mx-auto mt-12 max-w-[1800px] px-[2.5vw] sm:px-[3vw]">
